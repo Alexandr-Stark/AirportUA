@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="document-title">Авіарейси - AIRPORT UA™</title>
+    <link rel="icon" type="image/png" href="assets/images/logo-mini4.png">
+    <link rel="stylesheet" href="assets/stylesheets/style.css">
+    <link rel="stylesheet" href="assets/stylesheets/styleindex.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header id="header-1" class="wrapper__header header-wrapper">
+            <section class="header-wrapper__section--1">
+                <a href="#ua" class="heager-wrapper__logo">
+                    <img src="assets/images/4.png" alt="Airport UA">
+                </a>
+                <nav id="header-wrapper__menu-nav" class="header-wrapper__menu menu-header-wrapper">
+                    <a id="menu-header_deal" class="menu-header-wrapper__deal">Партнери</a>
+                    <a id="menu-header_service" class="menu-header-wrapper__services">Послуги</a>
+                    <a id="menu-header_plane" class="menu-header-wrapper__plane menu-header-wrapper__plane--active">Авіарейси</a>
+                </nav>
+                <div id="menu-header-wrapper__mobile-btn" class="menu-header-wrapper__mobile mobile-menu-header-wrapper">
+                    <a id="menu-header_plane1" class="menu-header-wrapper__plane">Авіарейси</a>
+                </div>
+            </section>
+            <div id="menu-header_service-tool" class="menu-header-wrapper__services-tool services-tool-menu-header-wrapper">
+                <ul>
+                    <li>
+                        <a href="#">💸 Тарифи</a>
+                    </li>
+                    <li>
+                        <a href="#">✈ Візит до ангару обслуговування літаків</a>
+                    </li>
+                    <li>
+                        <a href="#">🍷 Дегустація вина в небі з МАУ і Odessa Wine Week</a>
+                    </li>
+                    <li>
+                        <a href="#">🎁 Подарункові сертифікати</a>
+                    </li>
+                    <li>
+                        <a href="#">🚕 Замовити таксі 'Che Taxi'</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">Тарифи</a>
+                    </li>
+                    <li>
+                        <a href="#">✈ Візит до ангару обслуговування літаків</a>
+                    </li>
+                    <li>
+                        <a href="#">🍷 Дегустація вина в небі з МАУ і Odessa Wine Week</a>
+                    </li>
+                    <li>
+                        <a href="#">🎁 Подарункові сертифікати</a>
+                    </li>
+                </ul>
+                <span id="services-tool_close" class="services-tool-menu-header-wrapper__close"></span>
+            </div>
+            <div id="menu-header_deal-tool" class="menu-header-wrapper__deal-tool deal-tool-menu-header-wrapper">
+                <ul>
+                    <li>
+                        <a href="#Che_Taxi">🚕 Che Taxi</a>
+                    </li>
+                    <li>
+                        <a href="#">✈ Візит до ангару обслуговування літаків</a>
+                    </li>
+                    <li>
+                        <a href="#">🍷 Дегустація вина в небі з МАУ і Odessa Wine Week</a>
+                    </li>
+                    <li>
+                        <a href="#">🎁 Подарункові сертифікати</a>
+                    </li>
+                </ul>
+                <span id="deal-tool_close" class="deal-tool-menu-header-wrapper__close"></span>
+            </div>
+            <nav id="header-wrapper__toolbar-nav" class="header-wrapper__toolbar toolbar-header-wrapper">
+                <div class="toolbar-header-wrapper__login"><a id="header-login">Вхід в особистий кабінет</a></div>
+                <div id="toolbar-header_lang-block" class="toolbar-header-wrapper__language">
+                    <p id="currentLang">Укр</p>
+                    <ul id="lang-body" class="language-toolbar-header-wrapper__body">
+                        <li id="language-ua" class="--disable">
+                            <a href="#ua">
+                                <p>Урк</p>
+                                <img src="assets/images/ukraine.svg" alt="UA">
+                            </a>
+                        </li>
+                        <li id="language-en">
+                            <a href="#en">
+                                <p>Eng</p>
+                                <img src="assets/images/united-states.svg" alt="ENG">
+                            </a>
+                        </li>
+                        <li id="language-ru">
+                            <a href="#ru">
+                                <p>Рус</p>
+                                <img src="assets/images/russia.svg" alt="RU">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div id="toolbar-header-wrapper__mobile-btn" class="toolbar-header-wrapper__mobile mobile-toolbar-header-wrapper">
+                <span id="toolbar-btn" class="mobile-toolbar-header-wrapper__button"></span>
+            </div>
+        </header>
+        <main role="main" class="wrapper__content content-wrapper">
+            <div class="content-wrapper__current-time current-time-content-wrapper">
+                <div class="current-time-content-wrapper__content">
+                    <div class="current-time-content-wrapper__block-1">
+                        <div id="current_day" class="current-time-content-wrapper__date">23</div>
+                        <div class="current-time-content-wrapper__month-year">
+                            <div id="current_month" class="current-time-content-wrapper__month">Травень</div>
+                            <div id="current_year" class="current-time-content-wrapper__year">2021</div>
+                        </div>
+                    </div>
+                    <div class="current-time-content-wrapper__block-2">
+                        <div id="current_dayName" class="current-time-content-wrapper__day">Неділя</div>
+                        <div id="current_time" class="current-time-content-wrapper__time">23:00:37</div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-wrapper__searcher searcher-content-wrapper">
+                <p class="searcher-content-wrappe__title">Знайти всі доступні рейси</p>
+                <div class="searcher-content-wrappe__search-block">
+                    <input type="text" class="light-table-filter searcher-content-wrappe__search" data-table="shed-table" placeholder="Номер рейса або Пункт відправлення / призначення або Дату відправлення / призначення">
+                    <span id="searcher-content-wrapper__clear-btn-1" class="searcher-content-wrapper__clear-btn"></span>
+                </div>
+            </div>
+            <div class="content-wrapper__shedule-table">
+                <table class="shed-table shedule-table">
+                    <thead>
+                        <tr>
+                            <th id="THshed-table-1">Маршрут</th>
+                            <th id="THshed-table-1">Рейс</th>
+                            <th id="THshed-table-1">Дні вильоту</th>
+                            <th id="THshed-table-1">Дата</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>КИЇВ - ХЕРСОН</td>
+                            <td>PS044</td>
+                            <td>Пн, Вт, Ср, Чт, Пт, Сб, Нд</td>
+                            <td>01/06/2021 - 14/09/2021</td>
+                        </tr>
+                        <tr>
+                            <td>КИЇВ - НЬЮ-ЙОРК</td>
+                            <td>PS045</td>
+                            <td>Пн, Вт, Ср, Чт, Пт, Сб, Нд</td>
+                            <td>01/06/2021 - 14/09/2021</td>
+                        </tr>
+                        <tr>
+                            <td>ЧЕРНІВЦІ - ЛЬВІВ</td>
+                            <td>PS050</td>
+                            <td>Пн, Вт, Ср, Чт, Пт, Сб, Нд</td>
+                            <td>01/06/2021 - 14/09/2021</td>
+                        </tr>
+                        <tr>
+                            <td>КИЇВ - ХЕРСОН</td>
+                            <td>PS046</td>
+                            <td>Пн, Вт, Ср, Чт, Пт, Сб, Нд</td>
+                            <td>01/06/2021 - 14/09/2021</td>
+                        </tr>
+                        <tr style="display: none;">
+                            <td class="table-search-result" colspan="4">Результат за пошуком.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="order-table table shedule-table-mobile">
+                    <tr>
+                        <th colspan="2">ЧЕРНІВЦІ - ЛЬВІВ</th>
+                    </tr>
+                    <tr>
+                        <th id="THshed-table-2" class="label-raice">Рейс</th>
+                        <td>DS044</td>
+                    </tr>
+                    <tr>
+                        <th id="THshed-table-2">Дні вильоту</th>
+                        <td>Пн, Вт, Ср, Чт, Пт, Сб, Нд</td>
+                    </tr>
+                    <tr>
+                        <th id="THshed-table-2">Дата</th>
+                        <td>01/06/2021 - 14/09/2021</td>
+                    </tr>
+                </table>
+                <table class="order-table table shedule-table-mobile">
+                    <tr>
+                        <th colspan="2">КИЇВ - ХЕРСОН</th>
+                    </tr>
+                    <tr>
+                        <th id="THshed-table-3" class="label-raice">Рейс</th>
+                        <td>PS045</td>
+                    </tr>
+                    <tr>
+                        <th id="THshed-table-3">Дні вильоту</th>
+                        <td>Пн, Вт, Ср, Чт, Пт, Сб, Нд</td>
+                    </tr>
+                    <tr>
+                        <th id="THshed-table-3">Дата</th>
+                        <td>01/06/2021 - 14/09/2021</td>
+                    </tr>
+                </table>
+                <table class="order-table table shedule-table-mobile">
+                    <tr>
+                        <th colspan="2">КИЇВ - ХЕРСОН</th>
+                    </tr>
+                    <tr>
+                        <th id="THshed-table-4" class="label-raice">Рейс</th>
+                        <td>PS046</td>
+                    </tr>
+                    <tr>
+                        <th id="THshed-table-4">Дні вильоту</th>
+                        <td>Пн, Вт, Ср, Чт, Пт, Сб, Нд</td>
+                    </tr>
+                    <tr>
+                        <th id="THshed-table-4">Дата</th>
+                        <td>01/06/2021 - 14/09/2021</td>
+                    </tr>
+                </table>
+                <table class="order-table table shedule-table-mobile">
+                    <tr>
+                        <th colspan="2">КИЇВ - ХЕРСОН</th>
+                    </tr>
+                    <tr>
+                        <th id="THshed-table-5" class="label-raice">Рейс</th>
+                        <td>PS047</td>
+                    </tr>
+                    <tr>
+                        <th id="THshed-table-5">Дні вильоту</th>
+                        <td>Пн, Вт, Ср, Чт, Пт, Сб, Нд</td>
+                    </tr>
+                    <tr>
+                        <th id="THshed-table-5">Дата</th>
+                        <td>01/06/2021 - 14/09/2021</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="content-wrapper__offers offers-content-wrapper">
+                <section class="offers-content-wrapper__title">
+                    <p>Найкращі пропозиції</p>
+                </section>
+                <section class="offers-content-wrapper__subtitle">
+                    <p>Популярні рейси з міст України</p>
+                </section>
+                <section class="offers-content-wrapper__content">
+                    <div id="offers-block-1" class="offers-content-wrapper__offer offer-content-wrapper">
+                        <img class="offer-content-wrapper__picture slider-1 animate-fade" src="assets/images/New-York.jpg" alt="New-York | USA">
+                        <img class="offer-content-wrapper__picture slider-1 animate-fade" src="assets/images/Varshava.jpg" alt="Varshava | Poland">
+                        <img class="offer-content-wrapper__picture slider-1 animate-fade" src="assets/images/Vancouver.jpg" alt="Vancouver | Canada">
+                        <img class="offer-content-wrapper__picture slider-1 animate-fade" src="assets/images/Milan.jpg" alt="Milan | Italy">
+                        <div class="offer-slider">
+                            <span class="offer-slider__btn-1 offer-slider__btn"></span>
+                            <span class="offer-slider__btn-2 offer-slider__btn"></span>
+                            <span class="offer-slider__btn-3 offer-slider__btn"></span>
+                            <span class="offer-slider__btn-4 offer-slider__btn"></span>
+                        </div>
+                        <div class="offer-content-wrapper__label">
+                            <p city-name="Київ">Київ</p>
+                        </div>
+                        <div class="offer-content-wrapper__rout-block rout-block-content-wrapper">
+                            <div class="rout-block-content-wrapper__item item-rout-block-content">
+                                <div class="item-rout-block-content__point point-item-rout-block-content">
+                                    <div class="point-item-rout-block-content__city">
+                                        <p>Нью-Йорк</p>
+                                    </div>
+                                    <div class="point-item-rout-block-content__country">
+                                        <p>США</p>
+                                    </div>
+                                </div>
+                                <div class="item-rout-block-content__price price-item-rout-block-content">
+                                    <div class="price-item-rout-block-content__price-prefix">від</div>
+                                    <div class="price-item-rout-block-content__price-value">15104</div>
+                                    <div class="price-item-rout-block-content__price-currency">грн</div>
+                                </div>
+                                <button onclick="scrollSmoothTo('header-1')" class="item-rout-block-content__btn">Знайти</button>
+                            </div>
+                            <div class="rout-block-content-wrapper__item item-rout-block-content">
+                                <div class="item-rout-block-content__point point-item-rout-block-content">
+                                    <div class="point-item-rout-block-content__city">
+                                        <p>Варшава</p>
+                                    </div>
+                                    <div class="point-item-rout-block-content__country">
+                                        <p>Польща</p>
+                                    </div>
+                                </div>
+                                <div class="item-rout-block-content__price price-item-rout-block-content">
+                                    <div class="price-item-rout-block-content__price-prefix">від</div>
+                                    <div class="price-item-rout-block-content__price-value">15104</div>
+                                    <div class="price-item-rout-block-content__price-currency">грн</div>
+                                </div>
+                                <button onclick="scrollSmoothTo('header-1')" class="item-rout-block-content__btn">Знайти</button>
+                            </div>
+                            <div class="rout-block-content-wrapper__item item-rout-block-content">
+                                <div class="item-rout-block-content__point point-item-rout-block-content">
+                                    <div class="point-item-rout-block-content__city">
+                                        <p>Ванкувер</p>
+                                    </div>
+                                    <div class="point-item-rout-block-content__country">
+                                        <p>Канада</p>
+                                    </div>
+                                </div>
+                                <div class="item-rout-block-content__price price-item-rout-block-content">
+                                    <div class="price-item-rout-block-content__price-prefix">від</div>
+                                    <div class="price-item-rout-block-content__price-value">15104</div>
+                                    <div class="price-item-rout-block-content__price-currency">грн</div>
+                                </div>
+                                <button onclick="scrollSmoothTo('header-1')" class="item-rout-block-content__btn">Знайти</button>
+                            </div>
+                            <div class="rout-block-content-wrapper__item item-rout-block-content">
+                                <div class="item-rout-block-content__point point-item-rout-block-content">
+                                    <div class="point-item-rout-block-content__city">
+                                        <p>Мілан</p>
+                                    </div>
+                                    <div class="point-item-rout-block-content__country">
+                                        <p>Італія</p>
+                                    </div>
+                                </div>
+                                <div class="item-rout-block-content__price price-item-rout-block-content">
+                                    <div class="price-item-rout-block-content__price-prefix">від</div>
+                                    <div class="price-item-rout-block-content__price-value">15104</div>
+                                    <div class="price-item-rout-block-content__price-currency">грн</div>
+                                </div>
+                                <button onclick="scrollSmoothTo('header-1')" class="item-rout-block-content__btn">Знайти</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="offers-block-2" class="offers-content-wrapper__offer offer-content-wrapper">
+                        <img class="offer-content-wrapper__picture slider-2 animate-fade" src="assets/images/Athens.jpg" alt="Athens | Greek">
+                        <img class="offer-content-wrapper__picture slider-2 animate-fade" src="assets/images/Barcelona.jpg" alt="Barcelona | Spain">
+                        <img class="offer-content-wrapper__picture slider-2 animate-fade" src="assets/images/Roma.webp" alt="Roma | Italy">
+                        <img class="offer-content-wrapper__picture slider-2 animate-fade" src="assets/images/Berlin.jpg" alt="Berlin | Germany">
+                        <div class="offer-slider">
+                            <span class="offer-slider__btn-1 offer-slider__btn"></span>
+                            <span class="offer-slider__btn-2 offer-slider__btn"></span>
+                            <span class="offer-slider__btn-3 offer-slider__btn"></span>
+                            <span class="offer-slider__btn-4 offer-slider__btn"></span>
+                        </div>
+                        <div class="offer-content-wrapper__label">
+                            <p city-name="Львів">Львів</p>
+                        </div>
+                        <div class="offer-content-wrapper__rout-block rout-block-content-wrapper">
+                            <div class="rout-block-content-wrapper__item item-rout-block-content">
+                                <div class="item-rout-block-content__point point-item-rout-block-content">
+                                    <div class="point-item-rout-block-content__city">
+                                        <p>Афіни</p>
+                                    </div>
+                                    <div class="point-item-rout-block-content__country">
+                                        <p>Греція</p>
+                                    </div>
+                                </div>
+                                <div class="item-rout-block-content__price price-item-rout-block-content">
+                                    <div class="price-item-rout-block-content__price-prefix">від</div>
+                                    <div class="price-item-rout-block-content__price-value">15104</div>
+                                    <div class="price-item-rout-block-content__price-currency">грн</div>
+                                </div>
+                                <button onclick="scrollSmoothTo('header-1')" class="item-rout-block-content__btn">Знайти</button>
+                            </div>
+                            <div class="rout-block-content-wrapper__item item-rout-block-content">
+                                <div class="item-rout-block-content__point point-item-rout-block-content">
+                                    <div class="point-item-rout-block-content__city">
+                                        <p>Барселона</p>
+                                    </div>
+                                    <div class="point-item-rout-block-content__country">
+                                        <p>Іспанія</p>
+                                    </div>
+                                </div>
+                                <div class="item-rout-block-content__price price-item-rout-block-content">
+                                    <div class="price-item-rout-block-content__price-prefix">від</div>
+                                    <div class="price-item-rout-block-content__price-value">15104</div>
+                                    <div class="price-item-rout-block-content__price-currency">грн</div>
+                                </div>
+                                <button onclick="scrollSmoothTo('header-1')" class="item-rout-block-content__btn">Знайти</button>
+                            </div>
+                            <div class="rout-block-content-wrapper__item item-rout-block-content">
+                                <div class="item-rout-block-content__point point-item-rout-block-content">
+                                    <div class="point-item-rout-block-content__city">
+                                        <p>Рим</p>
+                                    </div>
+                                    <div class="point-item-rout-block-content__country">
+                                        <p>Італія</p>
+                                    </div>
+                                </div>
+                                <div class="item-rout-block-content__price price-item-rout-block-content">
+                                    <div class="price-item-rout-block-content__price-prefix">від</div>
+                                    <div class="price-item-rout-block-content__price-value">15104</div>
+                                    <div class="price-item-rout-block-content__price-currency">грн</div>
+                                </div>
+                                <button onclick="scrollSmoothTo('header-1')" class="item-rout-block-content__btn">Знайти</button>
+                            </div>
+                            <div class="rout-block-content-wrapper__item item-rout-block-content">
+                                <div class="item-rout-block-content__point point-item-rout-block-content">
+                                    <div class="point-item-rout-block-content__city">
+                                        <p>Берлін</p>
+                                    </div>
+                                    <div class="point-item-rout-block-content__country">
+                                        <p>Німеччина</p>
+                                    </div>
+                                </div>
+                                <div class="item-rout-block-content__price price-item-rout-block-content">
+                                    <div class="price-item-rout-block-content__price-prefix">від</div>
+                                    <div class="price-item-rout-block-content__price-value">15104</div>
+                                    <div class="price-item-rout-block-content__price-currency">грн</div>
+                                </div>
+                                <button onclick="scrollSmoothTo('header-1')" class="item-rout-block-content__btn">Знайти</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="offers-block-3" class="offers-content-wrapper__offer offer-content-wrapper">
+                        <img class="offer-content-wrapper__picture slider-3 animate-fade" src="assets/images/210.jpg" alt="Kiev | Ua">
+                        <img class="offer-content-wrapper__picture slider-3 animate-fade" src="assets/images/lviv-opera-ukraine.jpg" alt="Lviv | Ua">
+                        <img class="offer-content-wrapper__picture slider-3 animate-fade" src="assets/images/Odesa.jpg" alt="Roma | Italy">
+                        <img class="offer-content-wrapper__picture slider-3 animate-fade" src="assets/images/Milan.jpg" alt="Milan | Italy">
+                        <div class="offer-slider">
+                            <span class="offer-slider__btn-1 offer-slider__btn"></span>
+                            <span class="offer-slider__btn-2 offer-slider__btn"></span>
+                            <span class="offer-slider__btn-3 offer-slider__btn"></span>
+                            <span class="offer-slider__btn-4 offer-slider__btn"></span>
+                        </div>
+                        <div class="offer-content-wrapper__label">
+                            <p city-name="Чернівці">Чернівці</p>
+                        </div>
+                        <div class="offer-content-wrapper__rout-block rout-block-content-wrapper">
+                            <div class="rout-block-content-wrapper__item item-rout-block-content">
+                                <div class="item-rout-block-content__point point-item-rout-block-content">
+                                    <div class="point-item-rout-block-content__city">
+                                        <p>Київ</p>
+                                    </div>
+                                    <div class="point-item-rout-block-content__country">
+                                        <p>Україна</p>
+                                    </div>
+                                </div>
+                                <div class="item-rout-block-content__price price-item-rout-block-content">
+                                    <div class="price-item-rout-block-content__price-prefix">від</div>
+                                    <div class="price-item-rout-block-content__price-value">15104</div>
+                                    <div class="price-item-rout-block-content__price-currency">грн</div>
+                                </div>
+                                <button onclick="scrollSmoothTo('header-1')" class="item-rout-block-content__btn">Знайти</button>
+                            </div>
+                            <div class="rout-block-content-wrapper__item item-rout-block-content">
+                                <div class="item-rout-block-content__point point-item-rout-block-content">
+                                    <div class="point-item-rout-block-content__city">
+                                        <p>Львів</p>
+                                    </div>
+                                    <div class="point-item-rout-block-content__country">
+                                        <p>Україна</p>
+                                    </div>
+                                </div>
+                                <div class="item-rout-block-content__price price-item-rout-block-content">
+                                    <div class="price-item-rout-block-content__price-prefix">від</div>
+                                    <div class="price-item-rout-block-content__price-value">15104</div>
+                                    <div class="price-item-rout-block-content__price-currency">грн</div>
+                                </div>
+                                <button onclick="scrollSmoothTo('header-1')" class="item-rout-block-content__btn">Знайти</button>
+                            </div>
+                            <div class="rout-block-content-wrapper__item item-rout-block-content">
+                                <div class="item-rout-block-content__point point-item-rout-block-content">
+                                    <div class="point-item-rout-block-content__city">
+                                        <p>Одеса</p>
+                                    </div>
+                                    <div class="point-item-rout-block-content__country">
+                                        <p>Україна</p>
+                                    </div>
+                                </div>
+                                <div class="item-rout-block-content__price price-item-rout-block-content">
+                                    <div class="price-item-rout-block-content__price-prefix">від</div>
+                                    <div class="price-item-rout-block-content__price-value">15104</div>
+                                    <div class="price-item-rout-block-content__price-currency">грн</div>
+                                </div>
+                                <button onclick="scrollSmoothTo('header-1')" class="item-rout-block-content__btn">Знайти</button>
+                            </div>
+                            <div class="rout-block-content-wrapper__item item-rout-block-content">
+                                <div class="item-rout-block-content__point point-item-rout-block-content">
+                                    <div class="point-item-rout-block-content__city">
+                                        <p>Мілан</p>
+                                    </div>
+                                    <div class="point-item-rout-block-content__country">
+                                        <p>Італія</p>
+                                    </div>
+                                </div>
+                                <div class="item-rout-block-content__price price-item-rout-block-content">
+                                    <div class="price-item-rout-block-content__price-prefix">від</div>
+                                    <div class="price-item-rout-block-content__price-value">15104</div>
+                                    <div class="price-item-rout-block-content__price-currency">грн</div>
+                                </div>
+                                <button onclick="scrollSmoothTo('header-1')" class="item-rout-block-content__btn">Знайти</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer class="wrapper__footer footer-wrapper">
+            <button onclick="scrollSmoothTo('header-1')" class="footer-wrapper__anchor anchor-footer-wrapper">
+                <span class="anchor-footer-wrapper__icon"></span>
+            </button>
+            <div class="footer-wrapper__content content-footer-wrapper">
+                <div class="content-footer-wrapper__block">
+                    <div class="content-footer-wrapper__contact-info contact-info-content-footer-wrapper">
+                        <div class="contact-info-content-footer-wrapper__phone phone-contact-info-content-footer">
+                            <a href="tel:0507770777">
+                                <p class="phone-contact-info-content-footer__prefix">(050)</p>
+                                <p class="phone-contact-info-content-footer__value">777-07-77</p>
+                            </a>
+                        </div>
+                        <div class="contact-info-content-footer-wrapper__email">
+                            <a href="mailto:airportua@gmail.com" target="_blank">airportua@gmail.com</a>
+                        </div>
+                        <div class="contact-info-content-footer-wrapper__copyright">
+                            <p>© 2021, airportua.com</p>
+                        </div>
+                    </div>
+                    <div class="content-footer-wrapper__socialmedia socialmedia-content-footer-wrapper">
+                        <a href="https://www.instagram.com/" class="socialmedia-content-footer-wrapper__item" target="_blank">
+                            <img src="assets/images/instagram.svg" alt="instagram">
+                        </a>
+                        <a href="https://www.youtube.com/" class="socialmedia-content-footer-wrapper__item" target="_blank">
+                            <img src="assets/images/youtube3.svg" alt="youtube">
+                        </a>
+                        <a href="https://www.facebook.com/" class="socialmedia-content-footer-wrapper__item" target="_blank">
+                            <img src="assets/images/facebook.svg" alt="facebook">
+                        </a>
+                    </div>
+                </div>
+                <div class="content-footer-wrapper__description description-content-footer-wrapper">
+                    <h2>Авіа AIRPORTUA™</h2>
+                    <p>
+                        Авіаперельоти - це відмінна альтернатива залізничному або автомобільному транспорту. Подорож
+                        на літаку відрізняється швидкістю пересування, комфортом, високим рівнем сервісу. Якщо ви
+                        обмежені в часі, найкращим рішенням буде придбати <strong>авіаквитки</strong>.
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <div id="overlay" class="overlay"></div>
+    </div>
+    <script>
+    (function(document) {
+
+        const inputFilterTables = document.getElementsByClassName('light-table-filter')[0];
+
+        inputFilterTables.addEventListener('keyup', function() {
+            let tablesD = document.getElementsByClassName(inputFilterTables.getAttribute('data-table'))[0];
+            let tablesM = document.getElementsByClassName('shedule-table-mobile');
+
+            (innerWidth > 532) ? filterDesktop(tablesD): filterMobile(tablesM);
+
+            clearInput(tablesD, tablesM);
+        });
+
+        function filterDesktop(tables) {
+            for (let i = 1; i < tables.rows.length - 1; i++) {
+
+                for (let j = 0; j < tables.rows[i].cells.length; j++) {
+
+                    let tableContent = tables.rows[i].cells[j].textContent.toLowerCase();
+                    let inputContent = inputFilterTables.value.toLowerCase();
+
+                    if (tableContent.indexOf(inputContent) === -1) {
+                        tables.rows[i].style.display = 'none';
+                        tables.rows[tables.rows.length - 1].style.display = 'table-row';
+                        //console.log(tables.rows[i].cells[j].textContent.toLowerCase());
+                    } else {
+                        tables.rows[i].style.display = 'table-row';
+                        tables.rows[tables.rows.length - 1].style.display = 'none';
+                        break;
+                    }
+                }
+            }
+        }
+
+        function filterMobile(tables) {
+            tables = Array.from(tables);
+            for (let k = 0; k < tables.length; k++) {
+
+                let flag = true;
+                for (let i = 0; i < tables[k].rows.length; i++) {
+
+                    for (let j = 0; j < tables[k].rows[i].cells.length; j++) {
+
+                        let tableContent = tables[k].rows[i].cells[j].textContent.toLowerCase();
+                        let inputContent = inputFilterTables.value.toLowerCase();
+
+                        //console.log(tableContent);
+                        //console.log(inputContent);
+
+                        //console.log(tableContent.indexOf(inputContent));
+
+                        if (tableContent.indexOf(inputContent) === -1) {
+                            tables[k].style.display = 'none';
+                        } else {
+                            tables[k].style.display = '';
+                            flag = false;
+                            break;
+                        }
+                    }
+                    if (!flag) {
+                        break;
+                    }
+                }
+            }
+        }
+
+        function clearInput(tablesD, tablesM) {
+            const clearButton = document.getElementById('searcher-content-wrapper__clear-btn-1');
+
+            if (inputFilterTables.value.length > 0) {
+                clearButton.style.visibility = 'visible';
+
+                clearButton.addEventListener('click', function() {
+
+                    inputFilterTables.value = '';
+                    clearButton.style.visibility = null;
+
+                    Array.from(tablesD.rows).forEach((item, index) => tablesD.rows[index].style.display = 'table-row');
+                    tablesD.rows[tablesD.rows.length - 1].style.display = 'none';
+
+                    Array.from(tablesM).forEach((item, index) => tablesM[index].style.display = '');
+                });
+
+            } else {
+                clearButton.style.visibility = null;
+            }
+        }
+
+    })(document);
+    </script>
+    <script src="assets/scripts/script.js"></script>
+</body>
+
+</html>
